@@ -23,6 +23,25 @@ data_reaction = [
         ]
     },
     {
+        title: "Skirmisher",
+        icon: "dodge",
+        subtitle: "(Level 3) Enemy ends its turn within 5 feet of you",
+        description: "You are difficult to pin down during a fight",
+        reference: "XGE, pg. 47",
+        bullets: [
+            "You can move up to half your speed as a reaction when an enemy ends its turn within 5 feet of you.",
+            "This movement doesn't provoke opportunity attacks."
+        ]
+    },
+    {
+        title: "Uncanny Dodge",
+        icon: "dodging",
+        subtitle: "(Level 5) Reduce damage from an attack",
+        description: "Halve the attack's damage against you",
+        reference: "PHB, pg. 94",
+        bullets: []
+    },
+    {
         title: "Cast a spell",
         icon: "magic-swirl",
         subtitle: "Cast time of 1 reaction",

@@ -13,6 +13,50 @@ data_bonusaction = [
         ]
     },
     {
+        title: "Dash",
+        icon: "sprint",
+        subtitle: "Double movement speed",
+        description: "Gain extra movement for the current turn",
+        reference: "PHB, pg. 192.",
+        bullets: [
+            "The increase equals your speed, after applying any modifiers."
+        ]
+    },
+    {
+        title: "Disengage",
+        icon: "journey",
+        subtitle: "Prevent opportunity attacks",
+        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
+        reference: "PHB, pg. 192.",
+        bullets: [
+        ]
+    },
+    {
+        title: "Hide",
+        icon: "hood",
+        subtitle: "",
+        description: "Attempt to hide",
+        reference: "PHB, pg. 192.",
+        bullets: [
+            "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision. You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.",
+            "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
+            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
+            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
+            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+        ]
+    },
+    {
+        title: "Aim",
+        icon: "crosshair",
+        subtitle: "(Level 3) Steady your aim",
+        description: "Carefully aim for your next attack",
+        reference: "TCE, pg. 62.",
+        bullets: [
+            "You give yourself advantage on your next attack roll on the current turn.",
+            "You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn."
+        ]
+    },
+    {
         title: "Cast a spell",
         icon: "magic-swirl",
         subtitle: "Cast time of 1 bonus action",
